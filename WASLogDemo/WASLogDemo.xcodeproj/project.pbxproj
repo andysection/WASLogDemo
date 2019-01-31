@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AA403D72202D708001F3B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA403D62202D708001F3B45 /* AppDelegate.m */; };
-		9AA403D92202D709001F3B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA403D82202D709001F3B45 /* Assets.xcassets */; };
-		9AA403DC2202D709001F3B45 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA403DA2202D709001F3B45 /* MainMenu.xib */; };
-		9AA403DF2202D709001F3B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA403DE2202D709001F3B45 /* main.m */; };
+		9A2206CC2202D7F80088174F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2206CB2202D7F80088174F /* AppDelegate.m */; };
+		9A2206CF2202D7F80088174F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2206CE2202D7F80088174F /* ViewController.m */; };
+		9A2206D22202D7F80088174F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D02202D7F80088174F /* Main.storyboard */; };
+		9A2206D42202D7F80088174F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D32202D7F80088174F /* Assets.xcassets */; };
+		9A2206D72202D7F90088174F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D52202D7F90088174F /* LaunchScreen.storyboard */; };
+		9A2206DA2202D7F90088174F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2206D92202D7F90088174F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9AA403D22202D708001F3B45 /* WASLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WASLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AA403D52202D708001F3B45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9AA403D62202D708001F3B45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AA403D82202D709001F3B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AA403DB2202D709001F3B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9AA403DD2202D709001F3B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AA403DE2202D709001F3B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9AA403E02202D709001F3B45 /* WASLogDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WASLogDemo.entitlements; sourceTree = "<group>"; };
+		9A2206C72202D7F80088174F /* WASLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WASLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2206CA2202D7F80088174F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A2206CB2202D7F80088174F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A2206CD2202D7F80088174F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A2206CE2202D7F80088174F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A2206D12202D7F80088174F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2206D32202D7F80088174F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A2206D62202D7F90088174F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A2206D82202D7F90088174F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2206D92202D7F90088174F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9AA403CF2202D708001F3B45 /* Frameworks */ = {
+		9A2206C42202D7F80088174F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,32 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9AA403C92202D708001F3B45 = {
+		9A2206BE2202D7F80088174F = {
 			isa = PBXGroup;
 			children = (
-				9AA403D42202D708001F3B45 /* WASLogDemo */,
-				9AA403D32202D708001F3B45 /* Products */,
+				9A2206C92202D7F80088174F /* WASLogDemo */,
+				9A2206C82202D7F80088174F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9AA403D32202D708001F3B45 /* Products */ = {
+		9A2206C82202D7F80088174F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AA403D22202D708001F3B45 /* WASLogDemo.app */,
+				9A2206C72202D7F80088174F /* WASLogDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AA403D42202D708001F3B45 /* WASLogDemo */ = {
+		9A2206C92202D7F80088174F /* WASLogDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9AA403D52202D708001F3B45 /* AppDelegate.h */,
-				9AA403D62202D708001F3B45 /* AppDelegate.m */,
-				9AA403D82202D709001F3B45 /* Assets.xcassets */,
-				9AA403DA2202D709001F3B45 /* MainMenu.xib */,
-				9AA403DD2202D709001F3B45 /* Info.plist */,
-				9AA403DE2202D709001F3B45 /* main.m */,
-				9AA403E02202D709001F3B45 /* WASLogDemo.entitlements */,
+				9A2206CA2202D7F80088174F /* AppDelegate.h */,
+				9A2206CB2202D7F80088174F /* AppDelegate.m */,
+				9A2206CD2202D7F80088174F /* ViewController.h */,
+				9A2206CE2202D7F80088174F /* ViewController.m */,
+				9A2206D02202D7F80088174F /* Main.storyboard */,
+				9A2206D32202D7F80088174F /* Assets.xcassets */,
+				9A2206D52202D7F90088174F /* LaunchScreen.storyboard */,
+				9A2206D82202D7F90088174F /* Info.plist */,
+				9A2206D92202D7F90088174F /* main.m */,
 			);
 			path = WASLogDemo;
 			sourceTree = "<group>";
@@ -68,13 +74,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9AA403D12202D708001F3B45 /* WASLogDemo */ = {
+		9A2206C62202D7F80088174F /* WASLogDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AA403E32202D709001F3B45 /* Build configuration list for PBXNativeTarget "WASLogDemo" */;
+			buildConfigurationList = 9A2206DD2202D7F90088174F /* Build configuration list for PBXNativeTarget "WASLogDemo" */;
 			buildPhases = (
-				9AA403CE2202D708001F3B45 /* Sources */,
-				9AA403CF2202D708001F3B45 /* Frameworks */,
-				9AA403D02202D708001F3B45 /* Resources */,
+				9A2206C32202D7F80088174F /* Sources */,
+				9A2206C42202D7F80088174F /* Frameworks */,
+				9A2206C52202D7F80088174F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -82,24 +88,24 @@
 			);
 			name = WASLogDemo;
 			productName = WASLogDemo;
-			productReference = 9AA403D22202D708001F3B45 /* WASLogDemo.app */;
+			productReference = 9A2206C72202D7F80088174F /* WASLogDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9AA403CA2202D708001F3B45 /* Project object */ = {
+		9A2206BF2202D7F80088174F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = section;
 				TargetAttributes = {
-					9AA403D12202D708001F3B45 = {
+					9A2206C62202D7F80088174F = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 9AA403CD2202D708001F3B45 /* Build configuration list for PBXProject "WASLogDemo" */;
+			buildConfigurationList = 9A2206C22202D7F80088174F /* Build configuration list for PBXProject "WASLogDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,53 +113,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 9AA403C92202D708001F3B45;
-			productRefGroup = 9AA403D32202D708001F3B45 /* Products */;
+			mainGroup = 9A2206BE2202D7F80088174F;
+			productRefGroup = 9A2206C82202D7F80088174F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9AA403D12202D708001F3B45 /* WASLogDemo */,
+				9A2206C62202D7F80088174F /* WASLogDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9AA403D02202D708001F3B45 /* Resources */ = {
+		9A2206C52202D7F80088174F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA403D92202D709001F3B45 /* Assets.xcassets in Resources */,
-				9AA403DC2202D709001F3B45 /* MainMenu.xib in Resources */,
+				9A2206D72202D7F90088174F /* LaunchScreen.storyboard in Resources */,
+				9A2206D42202D7F80088174F /* Assets.xcassets in Resources */,
+				9A2206D22202D7F80088174F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9AA403CE2202D708001F3B45 /* Sources */ = {
+		9A2206C32202D7F80088174F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA403DF2202D709001F3B45 /* main.m in Sources */,
-				9AA403D72202D708001F3B45 /* AppDelegate.m in Sources */,
+				9A2206CF2202D7F80088174F /* ViewController.m in Sources */,
+				9A2206DA2202D7F90088174F /* main.m in Sources */,
+				9A2206CC2202D7F80088174F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9AA403DA2202D709001F3B45 /* MainMenu.xib */ = {
+		9A2206D02202D7F80088174F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9AA403DB2202D709001F3B45 /* Base */,
+				9A2206D12202D7F80088174F /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A2206D52202D7F90088174F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2206D62202D7F90088174F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9AA403E12202D709001F3B45 /* Debug */ = {
+		9A2206DB2202D7F90088174F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +201,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -204,14 +220,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		9AA403E22202D709001F3B45 /* Release */ = {
+		9A2206DC2202D7F90088174F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +259,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -256,70 +272,69 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9AA403E42202D709001F3B45 /* Debug */ = {
+		9A2206DE2202D7F90088174F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = WASLogDemo/WASLogDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U8263K4SUP;
 				INFOPLIST_FILE = WASLogDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.section.log.WASLogDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9AA403E52202D709001F3B45 /* Release */ = {
+		9A2206DF2202D7F90088174F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = WASLogDemo/WASLogDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U8263K4SUP;
 				INFOPLIST_FILE = WASLogDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.section.log.WASLogDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9AA403CD2202D708001F3B45 /* Build configuration list for PBXProject "WASLogDemo" */ = {
+		9A2206C22202D7F80088174F /* Build configuration list for PBXProject "WASLogDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AA403E12202D709001F3B45 /* Debug */,
-				9AA403E22202D709001F3B45 /* Release */,
+				9A2206DB2202D7F90088174F /* Debug */,
+				9A2206DC2202D7F90088174F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AA403E32202D709001F3B45 /* Build configuration list for PBXNativeTarget "WASLogDemo" */ = {
+		9A2206DD2202D7F90088174F /* Build configuration list for PBXNativeTarget "WASLogDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AA403E42202D709001F3B45 /* Debug */,
-				9AA403E52202D709001F3B45 /* Release */,
+				9A2206DE2202D7F90088174F /* Debug */,
+				9A2206DF2202D7F90088174F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9AA403CA2202D708001F3B45 /* Project object */;
+	rootObject = 9A2206BF2202D7F80088174F /* Project object */;
 }
