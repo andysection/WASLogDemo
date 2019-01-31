@@ -13,6 +13,10 @@
 		9A2206D42202D7F80088174F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D32202D7F80088174F /* Assets.xcassets */; };
 		9A2206D72202D7F90088174F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D52202D7F90088174F /* LaunchScreen.storyboard */; };
 		9A2206DA2202D7F90088174F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2206D92202D7F90088174F /* main.m */; };
+		9AAD179B2202DB1500A15CF5 /* UIControl+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD179A2202DB1500A15CF5 /* UIControl+Log.m */; };
+		9AAD179E2202FEE900A15CF5 /* UISwitch+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */; };
+		9AAD17A42203040200A15CF5 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A32203040200A15CF5 /* NSObject+runtime.m */; };
+		9AAD17A72203050100A15CF5 /* UITapGestureRecognizer+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		9A2206D62202D7F90088174F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A2206D82202D7F90088174F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A2206D92202D7F90088174F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AAD17992202DB1500A15CF5 /* UIControl+Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Log.h"; sourceTree = "<group>"; };
+		9AAD179A2202DB1500A15CF5 /* UIControl+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Log.m"; sourceTree = "<group>"; };
+		9AAD179C2202FEE900A15CF5 /* UISwitch+Description.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Description.h"; sourceTree = "<group>"; };
+		9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Description.m"; sourceTree = "<group>"; };
+		9AAD17A22203040200A15CF5 /* NSObject+runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
+		9AAD17A32203040200A15CF5 /* NSObject+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
+		9AAD17A52203050100A15CF5 /* UITapGestureRecognizer+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+log.h"; sourceTree = "<group>"; };
+		9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		9A2206C92202D7F80088174F /* WASLogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9AAD17982202D89000A15CF5 /* Extension */,
 				9A2206CA2202D7F80088174F /* AppDelegate.h */,
 				9A2206CB2202D7F80088174F /* AppDelegate.m */,
 				9A2206CD2202D7F80088174F /* ViewController.h */,
@@ -69,6 +82,21 @@
 				9A2206D92202D7F90088174F /* main.m */,
 			);
 			path = WASLogDemo;
+			sourceTree = "<group>";
+		};
+		9AAD17982202D89000A15CF5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9AAD17992202DB1500A15CF5 /* UIControl+Log.h */,
+				9AAD179A2202DB1500A15CF5 /* UIControl+Log.m */,
+				9AAD17A52203050100A15CF5 /* UITapGestureRecognizer+log.h */,
+				9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */,
+				9AAD179C2202FEE900A15CF5 /* UISwitch+Description.h */,
+				9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */,
+				9AAD17A22203040200A15CF5 /* NSObject+runtime.h */,
+				9AAD17A32203040200A15CF5 /* NSObject+runtime.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +125,7 @@
 		9A2206BF2202D7F80088174F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WAS;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = section;
 				TargetAttributes = {
@@ -143,7 +172,11 @@
 			files = (
 				9A2206CF2202D7F80088174F /* ViewController.m in Sources */,
 				9A2206DA2202D7F90088174F /* main.m in Sources */,
+				9AAD17A42203040200A15CF5 /* NSObject+runtime.m in Sources */,
+				9AAD179B2202DB1500A15CF5 /* UIControl+Log.m in Sources */,
 				9A2206CC2202D7F80088174F /* AppDelegate.m in Sources */,
+				9AAD179E2202FEE900A15CF5 /* UISwitch+Description.m in Sources */,
+				9AAD17A72203050100A15CF5 /* UITapGestureRecognizer+log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
