@@ -17,4 +17,9 @@
  */
 + (void)swizzleInstanceMethod:(SEL)originalSelector with:(SEL)swizzledSelector;
 
+- (void)LogIvarList;
+
+//遍历获取所有属性Property
+- (void)logAllProperty;
+
 @end

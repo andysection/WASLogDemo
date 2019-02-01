@@ -17,6 +17,7 @@
 		9AAD179E2202FEE900A15CF5 /* UISwitch+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */; };
 		9AAD17A42203040200A15CF5 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A32203040200A15CF5 /* NSObject+runtime.m */; };
 		9AAD17A72203050100A15CF5 /* UITapGestureRecognizer+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */; };
+		9AAD17AA2203E77900A15CF5 /* WASStatisticInterceptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		9AAD17A32203040200A15CF5 /* NSObject+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
 		9AAD17A52203050100A15CF5 /* UITapGestureRecognizer+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+log.h"; sourceTree = "<group>"; };
 		9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+log.m"; sourceTree = "<group>"; };
+		9AAD17A82203E77900A15CF5 /* WASStatisticInterceptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WASStatisticInterceptionManager.h; sourceTree = "<group>"; };
+		9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASStatisticInterceptionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */,
 				9AAD17A22203040200A15CF5 /* NSObject+runtime.h */,
 				9AAD17A32203040200A15CF5 /* NSObject+runtime.m */,
+				9AAD17A82203E77900A15CF5 /* WASStatisticInterceptionManager.h */,
+				9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			files = (
 				9A2206CF2202D7F80088174F /* ViewController.m in Sources */,
 				9A2206DA2202D7F90088174F /* main.m in Sources */,
+				9AAD17AA2203E77900A15CF5 /* WASStatisticInterceptionManager.m in Sources */,
 				9AAD17A42203040200A15CF5 /* NSObject+runtime.m in Sources */,
 				9AAD179B2202DB1500A15CF5 /* UIControl+Log.m in Sources */,
 				9A2206CC2202D7F80088174F /* AppDelegate.m in Sources */,
