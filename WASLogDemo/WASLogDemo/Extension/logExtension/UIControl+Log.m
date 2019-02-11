@@ -8,6 +8,7 @@
 
 #import "UIControl+Log.h"
 #import "NSObject+runtime.h"
+#import "WASStatisticInterceptionManager.h"
 
 @implementation UIControl (Log)
 
@@ -16,9 +17,8 @@
 }
 
 - (void)mySendAction:(SEL)action to:(nullable id)target forEvent:(nullable UIEvent *)event {
-    NSString *strAction = NSStringFromSelector(action);
-    NSLog(@"ACTION:%@\nTARGET:%@\nEVENT:%@\nSELF:%@", strAction, target, event, self);
     
+    [[WASStatisticInterceptionManager shareInstance] control:self sendAction:action to:target forEvent:event];
     [self mySendAction:action to:target forEvent:event];
 }
 @end
