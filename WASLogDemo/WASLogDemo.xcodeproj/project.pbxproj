@@ -108,9 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				9AA5C37C22115B1800CB7DF0 /* NSObject+runtime.h */,
+				9AA5C37F22115B1800CB7DF0 /* NSObject+runtime.m */,
 				9AA5C37D22115B1800CB7DF0 /* UISwitch+Description.h */,
 				9AA5C37E22115B1800CB7DF0 /* UISwitch+Description.m */,
-				9AA5C37F22115B1800CB7DF0 /* NSObject+runtime.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -119,17 +119,17 @@
 			isa = PBXGroup;
 			children = (
 				9AA5C38122115B1800CB7DF0 /* UITableView+Log.h */,
-				9AA5C38222115B1800CB7DF0 /* UICollectionView+Log.h */,
-				9AA5C38322115B1800CB7DF0 /* UICollectionViewDelegateForwarder.h */,
-				9AA5C38422115B1800CB7DF0 /* UITableViewDelegateForwarder.h */,
-				9AA5C38522115B1800CB7DF0 /* UITapGestureRecognizer+log.h */,
-				9AA5C38622115B1800CB7DF0 /* UIControl+Log.h */,
-				9AA5C38722115B1800CB7DF0 /* UICollectionView+Log.m */,
 				9AA5C38822115B1800CB7DF0 /* UITableView+Log.m */,
+				9AA5C38222115B1800CB7DF0 /* UICollectionView+Log.h */,
+				9AA5C38722115B1800CB7DF0 /* UICollectionView+Log.m */,
+				9AA5C38322115B1800CB7DF0 /* UICollectionViewDelegateForwarder.h */,
 				9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */,
-				9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */,
-				9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */,
+				9AA5C38422115B1800CB7DF0 /* UITableViewDelegateForwarder.h */,
 				9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */,
+				9AA5C38522115B1800CB7DF0 /* UITapGestureRecognizer+log.h */,
+				9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */,
+				9AA5C38622115B1800CB7DF0 /* UIControl+Log.h */,
+				9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */,
 			);
 			path = logExtension;
 			sourceTree = "<group>";
