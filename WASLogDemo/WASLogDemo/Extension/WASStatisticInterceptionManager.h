@@ -12,7 +12,7 @@
 
 + (instancetype)shareInstance;
 
-- (void)tapGestureRecognizerDidTap:(id) sender;
+- (void)gestureRecognizerDidAction:(UIGestureRecognizer *)sender;
 
 //UIControl 方法打点
 - (void)control:(UIControl *)control sendAction:(SEL)action to:(nullable id)target forEvent:(nullable UIEvent *)event;

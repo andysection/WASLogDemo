@@ -30,9 +30,9 @@
     NSLog(@"WASLOG------ACTION:%@ TARGET:%@ EVENT:%@ SELF:%@", strAction, target, event, control);
 }
 
-- (void)tapGestureRecognizerDidTap:(UITapGestureRecognizer *) sender {
+- (void)gestureRecognizerDidAction:(UIGestureRecognizer *)sender {
     ///监听tap手势
-    NSLog(@"WASLOG------TAPGESTURE: %@", sender);
+    NSLog(@"WASLOG------GESTURE: %@", sender);
 }
 
 #pragma mark -TableView

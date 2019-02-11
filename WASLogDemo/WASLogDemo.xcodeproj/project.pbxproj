@@ -20,8 +20,8 @@
 		9AA5C39022115B1800CB7DF0 /* UITableView+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38822115B1800CB7DF0 /* UITableView+Log.m */; };
 		9AA5C39122115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */; };
 		9AA5C39222115B1800CB7DF0 /* UIControl+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */; };
-		9AA5C39322115B1800CB7DF0 /* UITapGestureRecognizer+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */; };
 		9AA5C39422115B1800CB7DF0 /* UITableViewDelegateForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */; };
+		9AA5C3B52211674200CB7DF0 /* UIGestureRecognizer+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C3B42211674200CB7DF0 /* UIGestureRecognizer+log.m */; };
 		9AAD17AA2203E77900A15CF5 /* WASStatisticInterceptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */; };
 /* End PBXBuildFile section */
 
@@ -46,14 +46,14 @@
 		9AA5C38222115B1800CB7DF0 /* UICollectionView+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Log.h"; sourceTree = "<group>"; };
 		9AA5C38322115B1800CB7DF0 /* UICollectionViewDelegateForwarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewDelegateForwarder.h; sourceTree = "<group>"; };
 		9AA5C38422115B1800CB7DF0 /* UITableViewDelegateForwarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDelegateForwarder.h; sourceTree = "<group>"; };
-		9AA5C38522115B1800CB7DF0 /* UITapGestureRecognizer+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+log.h"; sourceTree = "<group>"; };
 		9AA5C38622115B1800CB7DF0 /* UIControl+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Log.h"; sourceTree = "<group>"; };
 		9AA5C38722115B1800CB7DF0 /* UICollectionView+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Log.m"; sourceTree = "<group>"; };
 		9AA5C38822115B1800CB7DF0 /* UITableView+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Log.m"; sourceTree = "<group>"; };
 		9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDelegateForwarder.m; sourceTree = "<group>"; };
 		9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Log.m"; sourceTree = "<group>"; };
-		9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+log.m"; sourceTree = "<group>"; };
 		9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewDelegateForwarder.m; sourceTree = "<group>"; };
+		9AA5C3B32211674200CB7DF0 /* UIGestureRecognizer+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+log.h"; sourceTree = "<group>"; };
+		9AA5C3B42211674200CB7DF0 /* UIGestureRecognizer+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+log.m"; sourceTree = "<group>"; };
 		9AAD17A82203E77900A15CF5 /* WASStatisticInterceptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WASStatisticInterceptionManager.h; sourceTree = "<group>"; };
 		9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASStatisticInterceptionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,8 +126,8 @@
 				9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */,
 				9AA5C38422115B1800CB7DF0 /* UITableViewDelegateForwarder.h */,
 				9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */,
-				9AA5C38522115B1800CB7DF0 /* UITapGestureRecognizer+log.h */,
-				9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */,
+				9AA5C3B32211674200CB7DF0 /* UIGestureRecognizer+log.h */,
+				9AA5C3B42211674200CB7DF0 /* UIGestureRecognizer+log.m */,
 				9AA5C38622115B1800CB7DF0 /* UIControl+Log.h */,
 				9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */,
 			);
@@ -218,12 +218,12 @@
 			files = (
 				9AA5C39422115B1800CB7DF0 /* UITableViewDelegateForwarder.m in Sources */,
 				9A2206CF2202D7F80088174F /* ViewController.m in Sources */,
+				9AA5C3B52211674200CB7DF0 /* UIGestureRecognizer+log.m in Sources */,
 				9A2206DA2202D7F90088174F /* main.m in Sources */,
 				9AA5C39122115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m in Sources */,
 				9AA5C39022115B1800CB7DF0 /* UITableView+Log.m in Sources */,
 				9AAD17AA2203E77900A15CF5 /* WASStatisticInterceptionManager.m in Sources */,
 				9AA5C39222115B1800CB7DF0 /* UIControl+Log.m in Sources */,
-				9AA5C39322115B1800CB7DF0 /* UITapGestureRecognizer+log.m in Sources */,
 				9AA5C38F22115B1800CB7DF0 /* UICollectionView+Log.m in Sources */,
 				9A2206CC2202D7F80088174F /* AppDelegate.m in Sources */,
 				9AA5C38E22115B1800CB7DF0 /* NSObject+runtime.m in Sources */,
