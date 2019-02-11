@@ -13,10 +13,15 @@
 		9A2206D42202D7F80088174F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D32202D7F80088174F /* Assets.xcassets */; };
 		9A2206D72202D7F90088174F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2206D52202D7F90088174F /* LaunchScreen.storyboard */; };
 		9A2206DA2202D7F90088174F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2206D92202D7F90088174F /* main.m */; };
-		9AAD179B2202DB1500A15CF5 /* UIControl+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD179A2202DB1500A15CF5 /* UIControl+Log.m */; };
-		9AAD179E2202FEE900A15CF5 /* UISwitch+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */; };
-		9AAD17A42203040200A15CF5 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A32203040200A15CF5 /* NSObject+runtime.m */; };
-		9AAD17A72203050100A15CF5 /* UITapGestureRecognizer+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */; };
+		9AA5C37422114F5700CB7DF0 /* WASTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C37322114F5700CB7DF0 /* WASTableViewController.m */; };
+		9AA5C38D22115B1800CB7DF0 /* UISwitch+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C37E22115B1800CB7DF0 /* UISwitch+Description.m */; };
+		9AA5C38E22115B1800CB7DF0 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C37F22115B1800CB7DF0 /* NSObject+runtime.m */; };
+		9AA5C38F22115B1800CB7DF0 /* UICollectionView+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38722115B1800CB7DF0 /* UICollectionView+Log.m */; };
+		9AA5C39022115B1800CB7DF0 /* UITableView+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38822115B1800CB7DF0 /* UITableView+Log.m */; };
+		9AA5C39122115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */; };
+		9AA5C39222115B1800CB7DF0 /* UIControl+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */; };
+		9AA5C39322115B1800CB7DF0 /* UITapGestureRecognizer+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */; };
+		9AA5C39422115B1800CB7DF0 /* UITableViewDelegateForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */; };
 		9AAD17AA2203E77900A15CF5 /* WASStatisticInterceptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */; };
 /* End PBXBuildFile section */
 
@@ -31,14 +36,24 @@
 		9A2206D62202D7F90088174F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A2206D82202D7F90088174F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A2206D92202D7F90088174F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9AAD17992202DB1500A15CF5 /* UIControl+Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Log.h"; sourceTree = "<group>"; };
-		9AAD179A2202DB1500A15CF5 /* UIControl+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Log.m"; sourceTree = "<group>"; };
-		9AAD179C2202FEE900A15CF5 /* UISwitch+Description.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Description.h"; sourceTree = "<group>"; };
-		9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Description.m"; sourceTree = "<group>"; };
-		9AAD17A22203040200A15CF5 /* NSObject+runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
-		9AAD17A32203040200A15CF5 /* NSObject+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
-		9AAD17A52203050100A15CF5 /* UITapGestureRecognizer+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+log.h"; sourceTree = "<group>"; };
-		9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+log.m"; sourceTree = "<group>"; };
+		9AA5C37222114F5700CB7DF0 /* WASTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WASTableViewController.h; sourceTree = "<group>"; };
+		9AA5C37322114F5700CB7DF0 /* WASTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASTableViewController.m; sourceTree = "<group>"; };
+		9AA5C37C22115B1800CB7DF0 /* NSObject+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
+		9AA5C37D22115B1800CB7DF0 /* UISwitch+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Description.h"; sourceTree = "<group>"; };
+		9AA5C37E22115B1800CB7DF0 /* UISwitch+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Description.m"; sourceTree = "<group>"; };
+		9AA5C37F22115B1800CB7DF0 /* NSObject+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
+		9AA5C38122115B1800CB7DF0 /* UITableView+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Log.h"; sourceTree = "<group>"; };
+		9AA5C38222115B1800CB7DF0 /* UICollectionView+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Log.h"; sourceTree = "<group>"; };
+		9AA5C38322115B1800CB7DF0 /* UICollectionViewDelegateForwarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewDelegateForwarder.h; sourceTree = "<group>"; };
+		9AA5C38422115B1800CB7DF0 /* UITableViewDelegateForwarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDelegateForwarder.h; sourceTree = "<group>"; };
+		9AA5C38522115B1800CB7DF0 /* UITapGestureRecognizer+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+log.h"; sourceTree = "<group>"; };
+		9AA5C38622115B1800CB7DF0 /* UIControl+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Log.h"; sourceTree = "<group>"; };
+		9AA5C38722115B1800CB7DF0 /* UICollectionView+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Log.m"; sourceTree = "<group>"; };
+		9AA5C38822115B1800CB7DF0 /* UITableView+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Log.m"; sourceTree = "<group>"; };
+		9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDelegateForwarder.m; sourceTree = "<group>"; };
+		9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Log.m"; sourceTree = "<group>"; };
+		9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+log.m"; sourceTree = "<group>"; };
+		9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewDelegateForwarder.m; sourceTree = "<group>"; };
 		9AAD17A82203E77900A15CF5 /* WASStatisticInterceptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WASStatisticInterceptionManager.h; sourceTree = "<group>"; };
 		9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASStatisticInterceptionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +93,8 @@
 				9A2206CB2202D7F80088174F /* AppDelegate.m */,
 				9A2206CD2202D7F80088174F /* ViewController.h */,
 				9A2206CE2202D7F80088174F /* ViewController.m */,
+				9AA5C37222114F5700CB7DF0 /* WASTableViewController.h */,
+				9AA5C37322114F5700CB7DF0 /* WASTableViewController.m */,
 				9A2206D02202D7F80088174F /* Main.storyboard */,
 				9A2206D32202D7F80088174F /* Assets.xcassets */,
 				9A2206D52202D7F90088174F /* LaunchScreen.storyboard */,
@@ -87,17 +104,41 @@
 			path = WASLogDemo;
 			sourceTree = "<group>";
 		};
+		9AA5C37B22115B1800CB7DF0 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5C37C22115B1800CB7DF0 /* NSObject+runtime.h */,
+				9AA5C37D22115B1800CB7DF0 /* UISwitch+Description.h */,
+				9AA5C37E22115B1800CB7DF0 /* UISwitch+Description.m */,
+				9AA5C37F22115B1800CB7DF0 /* NSObject+runtime.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		9AA5C38022115B1800CB7DF0 /* logExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5C38122115B1800CB7DF0 /* UITableView+Log.h */,
+				9AA5C38222115B1800CB7DF0 /* UICollectionView+Log.h */,
+				9AA5C38322115B1800CB7DF0 /* UICollectionViewDelegateForwarder.h */,
+				9AA5C38422115B1800CB7DF0 /* UITableViewDelegateForwarder.h */,
+				9AA5C38522115B1800CB7DF0 /* UITapGestureRecognizer+log.h */,
+				9AA5C38622115B1800CB7DF0 /* UIControl+Log.h */,
+				9AA5C38722115B1800CB7DF0 /* UICollectionView+Log.m */,
+				9AA5C38822115B1800CB7DF0 /* UITableView+Log.m */,
+				9AA5C38922115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m */,
+				9AA5C38A22115B1800CB7DF0 /* UIControl+Log.m */,
+				9AA5C38B22115B1800CB7DF0 /* UITapGestureRecognizer+log.m */,
+				9AA5C38C22115B1800CB7DF0 /* UITableViewDelegateForwarder.m */,
+			);
+			path = logExtension;
+			sourceTree = "<group>";
+		};
 		9AAD17982202D89000A15CF5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9AAD17992202DB1500A15CF5 /* UIControl+Log.h */,
-				9AAD179A2202DB1500A15CF5 /* UIControl+Log.m */,
-				9AAD17A52203050100A15CF5 /* UITapGestureRecognizer+log.h */,
-				9AAD17A62203050100A15CF5 /* UITapGestureRecognizer+log.m */,
-				9AAD179C2202FEE900A15CF5 /* UISwitch+Description.h */,
-				9AAD179D2202FEE900A15CF5 /* UISwitch+Description.m */,
-				9AAD17A22203040200A15CF5 /* NSObject+runtime.h */,
-				9AAD17A32203040200A15CF5 /* NSObject+runtime.m */,
+				9AA5C38022115B1800CB7DF0 /* logExtension */,
+				9AA5C37B22115B1800CB7DF0 /* other */,
 				9AAD17A82203E77900A15CF5 /* WASStatisticInterceptionManager.h */,
 				9AAD17A92203E77900A15CF5 /* WASStatisticInterceptionManager.m */,
 			);
@@ -175,14 +216,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA5C39422115B1800CB7DF0 /* UITableViewDelegateForwarder.m in Sources */,
 				9A2206CF2202D7F80088174F /* ViewController.m in Sources */,
 				9A2206DA2202D7F90088174F /* main.m in Sources */,
+				9AA5C39122115B1800CB7DF0 /* UICollectionViewDelegateForwarder.m in Sources */,
+				9AA5C39022115B1800CB7DF0 /* UITableView+Log.m in Sources */,
 				9AAD17AA2203E77900A15CF5 /* WASStatisticInterceptionManager.m in Sources */,
-				9AAD17A42203040200A15CF5 /* NSObject+runtime.m in Sources */,
-				9AAD179B2202DB1500A15CF5 /* UIControl+Log.m in Sources */,
+				9AA5C39222115B1800CB7DF0 /* UIControl+Log.m in Sources */,
+				9AA5C39322115B1800CB7DF0 /* UITapGestureRecognizer+log.m in Sources */,
+				9AA5C38F22115B1800CB7DF0 /* UICollectionView+Log.m in Sources */,
 				9A2206CC2202D7F80088174F /* AppDelegate.m in Sources */,
-				9AAD179E2202FEE900A15CF5 /* UISwitch+Description.m in Sources */,
-				9AAD17A72203050100A15CF5 /* UITapGestureRecognizer+log.m in Sources */,
+				9AA5C38E22115B1800CB7DF0 /* NSObject+runtime.m in Sources */,
+				9AA5C38D22115B1800CB7DF0 /* UISwitch+Description.m in Sources */,
+				9AA5C37422114F5700CB7DF0 /* WASTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

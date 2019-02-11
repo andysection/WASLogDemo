@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WASTableViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UISwitch *switchTurn;
@@ -32,14 +33,17 @@
     _testLabel.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction)];
     [self.testLabel addGestureRecognizer:tap];
-    
 }
+
+
 
 - (void)tapAction {
     NSLog(@"tapAction！");
 }
 - (void)clickAction:(UIButton *)sender {
     NSLog(@"click!");
+    WASTableViewController *vc = [[WASTableViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

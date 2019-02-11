@@ -25,4 +25,8 @@
     NSLog(@"TAPGESTURE: %@", sender);
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"log config");
+}
+
 @end
