@@ -17,6 +17,26 @@
     method_exchangeImplementations(originalMethod, swizzledMethod);
 }
 
++ (void)swizzleInstanceOwnMethod:(SEL)originalSelector with:(SEL)swizzledSelector {
+    Method originalMethod = class_getInstanceMethod([self class], originalSelector);
+    Method swizzledMethod = class_getInstanceMethod([self class], swizzledSelector);
+    
+    BOOL didAddMethod =
+    class_addMethod([self class],
+                    originalSelector,
+                    method_getImplementation(swizzledMethod),
+                    method_getTypeEncoding(swizzledMethod));
+    
+    if (didAddMethod) {
+        class_replaceMethod([self class],
+                            swizzledSelector,
+                            method_getImplementation(originalMethod),
+                            method_getTypeEncoding(originalMethod));
+    } else {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    }
+}
+
 //遍历获取Person类所有的成员变量IvarList
 - (void)LogIvarList {
     unsigned int methodCount = 0;

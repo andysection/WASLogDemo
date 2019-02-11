@@ -10,12 +10,20 @@
 
 @interface NSObject (runtime)
 /**
- 本身方法交换
+ 方法交换
 
  @param originalSelector 原方法
  @param swizzledSelector 目标方法
  */
 + (void)swizzleInstanceMethod:(SEL)originalSelector with:(SEL)swizzledSelector;
+
+/**
+ 本身方法交换(范围为本身类或者实例方法)
+
+ @param originalSelector 原方法
+ @param swizzledSelector 目标方法
+ */
++ (void)swizzleInstanceOwnMethod:(SEL)originalSelector with:(SEL)swizzledSelector;
 
 - (void)LogIvarList;
 

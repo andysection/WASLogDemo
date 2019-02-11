@@ -33,9 +33,15 @@
     _testLabel.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction)];
     [self.testLabel addGestureRecognizer:tap];
+    
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] init];
+    [pan addTarget:self action:@selector(panAction)];
+    [self.testLabel addGestureRecognizer:pan];
 }
 
-
+- (void)panAction {
+    NSLog(@"panAction！");
+}
 
 - (void)tapAction {
     NSLog(@"tapAction！");
