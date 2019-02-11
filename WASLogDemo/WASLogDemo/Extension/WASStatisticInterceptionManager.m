@@ -27,7 +27,7 @@
 
 - (void)control:(UIControl *)control sendAction:(SEL)action to:(nullable id)target forEvent:(nullable UIEvent *)event {
     NSString *strAction = NSStringFromSelector(action);
-    NSLog(@"WASLOG------ACTION:%@\nTARGET:%@\nEVENT:%@\nSELF:%@", strAction, target, event, control);
+    NSLog(@"WASLOG------ACTION:%@ TARGET:%@ EVENT:%@ SELF:%@", strAction, target, event, control);
 }
 
 - (void)tapGestureRecognizerDidTap:(UITapGestureRecognizer *) sender {
